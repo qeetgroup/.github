@@ -1,6 +1,4 @@
 <div align="center">
-  
-<br />
 
 # We question, we explore, we envision, we transform.
 
