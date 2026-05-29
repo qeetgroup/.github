@@ -1,6 +1,6 @@
 <div align="center">
 
-# We question, we explore, we envision, we transform.
+# We question, We explore, We envision, We transform.
 
 **A multi-company holding built on a single philosophy:**
 **that meaningful progress begins with the right question.**
