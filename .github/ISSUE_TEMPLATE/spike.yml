@@ -1,0 +1,27 @@
+name: Spike
+description: Time-boxed investigation — the output is a decision, not shipped code
+type: Spike
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question to answer
+      description: One sentence. If there is more than one question, open more than one spike.
+    validations: { required: true }
+  - type: input
+    id: timebox
+    attributes:
+      label: Time box
+      description: e.g. 2 days. A spike without a time box is not a spike.
+    validations: { required: true }
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Definition of done
+      description: What artefact ends this spike? An ADR, a benchmark, a recommendation?
+    validations: { required: true }
