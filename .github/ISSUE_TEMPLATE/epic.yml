@@ -1,0 +1,27 @@
+name: Epic
+description: A major body of work, decomposed into features and tasks via sub-issues
+type: Epic
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Decompose an epic using **sub-issues** (Create sub-issue on this issue), not a checklist
+        of links. Sub-issue progress then shows on the delivery board automatically.
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What is true for users once this epic is complete?
+    validations: { required: true }
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+    validations: { required: true }
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: The observable condition that closes this epic.
+    validations: { required: true }
