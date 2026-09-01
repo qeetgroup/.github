@@ -2,7 +2,7 @@ name: Tech Debt
 description: Rework that lowers the cost of future change. Not a defect, not routine housekeeping.
 title: "[Tech Debt] "
 type: Tech Debt
-labels: ["needs-triage"]
+labels: ["triage/pending"]
 body:
   - type: textarea
     id: current
