@@ -2,7 +2,7 @@ name: Documentation
 description: Developer, operator or system documentation — including context documents and ADRs.
 title: "[Docs] "
 type: Documentation
-labels: ["needs-triage"]
+labels: ["triage/pending"]
 body:
   - type: textarea
     id: where
