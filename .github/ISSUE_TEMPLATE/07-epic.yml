@@ -1,0 +1,48 @@
+name: Epic
+description: An outcome spanning multiple features and usually multiple repositories.
+title: "[Epic] "
+type: Epic
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Epics carry **no Sprint** — they are scheduled by Start Date and Target Date, and the
+        Roadmap view plots them from that pair. An epic missing either date is invisible on it.
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What is true when this is done? Written as a state of the world, not a list of tasks.
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes:
+      label: Why now
+      description: What makes this the right thing to spend a release on.
+    validations: { required: true }
+  - type: textarea
+    id: measure
+    attributes:
+      label: How we will know it worked
+      description: A measure or an observable change. "It is implemented" is not a measure.
+    validations: { required: true }
+  - type: textarea
+    id: breakdown
+    attributes:
+      label: Initial breakdown
+      description: Rough child features. Create them as real sub-issues afterwards — do not maintain this list.
+    validations: { required: true }
+  - type: dropdown
+    id: repos
+    attributes:
+      label: Repositories in scope
+      multiple: true
+      options: ["qeet-id-server", "qeet-id-console", "qeet-id-login", "qeet-id-website", "qeet-id-docs", "qeet-id-auth", "qeet-id-go", "qeet-id-node", "qeet-id-react", "qeet-id-deploy", "qeet-id-context", "qeet-id-files"]
+    validations: { required: true }
+  - type: textarea
+    id: outofscope
+    attributes:
+      label: Explicitly out of scope
+      description: The most useful field on this form. Name what people will assume is included and is not.
+    validations: { required: true }
