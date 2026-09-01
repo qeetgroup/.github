@@ -2,7 +2,7 @@ name: Security
 description: Hardening, a security control, or remediation of an already-disclosed issue.
 title: "[Security] "
 type: Security
-labels: ["needs-triage"]
+labels: ["triage/pending"]
 body:
   - type: markdown
     attributes:
