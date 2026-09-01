@@ -1,0 +1,32 @@
+name: Task
+description: Implementation work one person can finish. Usually a child of a Feature or Epic.
+title: "[Task] "
+type: Task
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs doing
+      description: One sentence. If it takes more, this is a Feature, not a Task.
+    validations: { required: true }
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Done when
+      value: |
+        - [ ] 
+        - [ ] 
+    validations: { required: true }
+  - type: input
+    id: parent
+    attributes:
+      label: Parent issue
+      description: Link the Epic or Feature this belongs to, then set it as the parent via the sub-issues panel.
+      placeholder: qeetgroup/qeet-id-server#123
+    validations: { required: false }
+  - type: textarea
+    id: approach
+    attributes:
+      label: Approach or files involved
+    validations: { required: false }
