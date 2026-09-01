@@ -1,0 +1,42 @@
+name: Security
+description: Hardening, a security control, or remediation of an already-disclosed issue.
+title: "[Security] "
+type: Security
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > **Not for undisclosed vulnerabilities.** Report those through
+        > [private vulnerability reporting](https://github.com/qeetgroup/qeet-id-server/security/advisories/new)
+        > so a fix ships before the details are public. This form is for hardening work and for
+        > tracking remediation of something already disclosed.
+  - type: textarea
+    id: weakness
+    attributes:
+      label: Weakness or control gap
+    validations: { required: true }
+  - type: textarea
+    id: exposure
+    attributes:
+      label: What an attacker gains
+      description: Be specific about the boundary crossed — tenant isolation, credential confidentiality, audit-log integrity, privilege escalation.
+    validations: { required: true }
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Surface
+      multiple: true
+      options: ["Authentication", "MFA", "Sessions & tokens", "Authorization (RBAC/ABAC/ReBAC)", "OAuth / OIDC", "Federation (SAML/SCIM/LDAP)", "Machine & agent identity", "Cryptography & key management", "Audit log", "Tenant isolation", "Infrastructure", "Dependencies"]
+    validations: { required: true }
+  - type: textarea
+    id: remediation
+    attributes:
+      label: Proposed remediation
+    validations: { required: true }
+  - type: textarea
+    id: verification
+    attributes:
+      label: How we prove it is fixed
+      description: A test, a scan, or a manual check. "Reviewed the code" is not verification.
+    validations: { required: true }
