@@ -1,0 +1,54 @@
+name: Incident
+description: A production or service-impacting event. File during or immediately after, not days later.
+title: "[Incident] "
+type: Incident
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Stabilise first, write second. This issue is the record and the follow-up tracker, not the response channel."
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who was affected, which surface, and for how long.
+    validations: { required: true }
+  - type: input
+    id: detected
+    attributes:
+      label: Detected at (UTC)
+      placeholder: "2026-09-07 14:12"
+    validations: { required: true }
+  - type: dropdown
+    id: detection
+    attributes:
+      label: How it was detected
+      description: An answer of "reported by a user" is itself a finding — monitoring missed it.
+      options: ["Alert / monitoring", "Reported by a user", "Noticed during unrelated work", "Failed deploy or CI"]
+    validations: { required: true }
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline
+      value: |
+        - **HH:MM** — 
+        - **HH:MM** — 
+    validations: { required: true }
+  - type: textarea
+    id: mitigation
+    attributes:
+      label: Mitigation
+      description: What actually stopped the impact.
+    validations: { required: true }
+  - type: textarea
+    id: cause
+    attributes:
+      label: Contributing causes
+      description: Plural, and blameless. A single root cause is usually the first one you found.
+    validations: { required: false }
+  - type: textarea
+    id: followups
+    attributes:
+      label: Follow-up actions
+      description: Create each as a real issue and link it. Actions living only in this description do not happen.
+    validations: { required: false }
