@@ -1,0 +1,31 @@
+name: Spike
+description: Time-boxed investigation. Produces a decision or a document, never production code.
+title: "[Spike] "
+type: Spike
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: The question
+      description: One question with a findable answer. If you cannot phrase it as a question, this is not a spike.
+    validations: { required: true }
+  - type: input
+    id: timebox
+    attributes:
+      label: Time box
+      description: Hard limit. When it expires you report what you know, even if the answer is "still unknown".
+      placeholder: 2 days
+    validations: { required: true }
+  - type: textarea
+    id: exit
+    attributes:
+      label: Exit condition
+      description: What artefact ends this — an ADR, a benchmark, a prototype that gets deleted, a recommendation.
+    validations: { required: true }
+  - type: textarea
+    id: blocked
+    attributes:
+      label: What this unblocks
+      description: Link the work waiting on the answer, and set it as blocked-by this spike.
+    validations: { required: false }
