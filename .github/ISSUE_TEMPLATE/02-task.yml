@@ -2,7 +2,7 @@ name: Task
 description: Implementation work one person can finish. Usually a child of a Feature or Epic.
 title: "[Task] "
 type: Task
-labels: ["needs-triage"]
+labels: ["triage/pending"]
 body:
   - type: textarea
     id: what
