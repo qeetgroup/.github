@@ -1,0 +1,53 @@
+name: Feature
+description: A capability someone can use — an end user, a tenant admin, or a developer integrating Qeet ID.
+title: "[Feature] "
+type: Feature
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A completed form is most of the way to **Ready**. Set Priority, Area, Workstream and
+        Estimate on the issue after creating it — they are organization fields, not part of this form.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Stated from the user's perspective, not the implementation's. Who is blocked, and by what?
+      placeholder: A tenant administrator cannot ... so they have to ...
+    validations: { required: true }
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What is true once this ships? One or two sentences.
+    validations: { required: true }
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+      description: Enumerated and testable. QA must be able to act on these without asking you a question.
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    validations: { required: true }
+  - type: dropdown
+    id: repos
+    attributes:
+      label: Repositories affected
+      multiple: true
+      options: ["qeet-id-server", "qeet-id-console", "qeet-id-login", "qeet-id-website", "qeet-id-docs", "qeet-id-auth", "qeet-id-go", "qeet-id-node", "qeet-id-react", "qeet-id-deploy", "qeet-id-context", "qeet-id-files"]
+    validations: { required: true }
+  - type: textarea
+    id: contract
+    attributes:
+      label: Contract impact
+      description: Does this change the API, a token claim, a webhook payload or a database schema? If yes, say what breaks and add the `breaking-change` or `db-migration` label.
+      placeholder: None — internal only.
+    validations: { required: true }
+  - type: textarea
+    id: notes
+    attributes:
+      label: Design notes, alternatives, references
+    validations: { required: false }
