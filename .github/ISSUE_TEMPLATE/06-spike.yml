@@ -2,7 +2,7 @@ name: Spike
 description: Time-boxed investigation. Produces a decision or a document, never production code.
 title: "[Spike] "
 type: Spike
-labels: ["needs-triage"]
+labels: ["triage/pending"]
 body:
   - type: textarea
     id: question
