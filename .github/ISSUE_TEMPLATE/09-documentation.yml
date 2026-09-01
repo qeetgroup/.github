@@ -1,0 +1,29 @@
+name: Documentation
+description: Developer, operator or system documentation — including context documents and ADRs.
+title: "[Docs] "
+type: Documentation
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: where
+    attributes:
+      label: Which document
+      description: Path or URL.
+    validations: { required: true }
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong with it
+      options: ["Missing entirely", "Contradicts the code", "Out of date", "Correct but unclear", "Correct but unfindable"]
+    validations: { required: true }
+  - type: textarea
+    id: reality
+    attributes:
+      label: What is actually true
+      description: Cite the code, the live API or the migration that proves it. Documentation drift is only fixable against evidence.
+    validations: { required: true }
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who is misled by this today
+    validations: { required: false }
