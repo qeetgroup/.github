@@ -2,7 +2,7 @@ name: Incident
 description: A production or service-impacting event. File during or immediately after, not days later.
 title: "[Incident] "
 type: Incident
-labels: ["needs-triage"]
+labels: ["triage/pending"]
 body:
   - type: markdown
     attributes:
