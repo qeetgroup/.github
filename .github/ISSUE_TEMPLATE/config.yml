@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Report a security vulnerability (private)
-    url: https://github.com/qeetgroup/qeet-id-server/security/advisories/new
-    about: Never open a public issue for an exploitable vulnerability.
-  - name: Qeet ID delivery board
-    url: https://github.com/orgs/qeetgroup/projects/27
-    about: Roadmap, backlog and current sprint.
