@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/qeetgroup/qeet-id-server/security/advisories/new
+    about: Private disclosure. Never open a public issue for an undisclosed vulnerability.
+  - name: Qeet ID documentation
+    url: https://docs.qeet.in
+    about: Integration guides, API reference and quickstarts.
+  - name: Delivery board
+    url: https://github.com/orgs/qeetgroup/projects/32
+    about: How Qeet ID work is planned, prioritised and tracked across all 12 repositories.
