@@ -2,7 +2,7 @@ name: Epic
 description: An outcome spanning multiple features and usually multiple repositories.
 title: "[Epic] "
 type: Epic
-labels: ["needs-triage"]
+labels: ["triage/pending"]
 body:
   - type: markdown
     attributes:
