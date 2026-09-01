@@ -1,0 +1,57 @@
+name: Bug
+description: Behaviour that does not match what the product states or intends.
+title: "[Bug] "
+type: Bug
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **If this is a security vulnerability, do not file it here.** Close this form and use
+        [private vulnerability reporting](https://github.com/qeetgroup/qeet-id-server/security/advisories/new).
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happens
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should happen
+      description: Cite the document, endpoint contract or acceptance criterion that says so, if there is one.
+    validations: { required: true }
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1. 
+        2. 
+        3. 
+    validations: { required: true }
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options: ["Production (api.id.qeet.in)", "Vercel preview", "Local development", "Self-hosted", "Unknown"]
+    validations: { required: true }
+  - type: dropdown
+    id: regression
+    attributes:
+      label: Did this work before?
+      description: If yes, add the `regression` label and name the last known good version.
+      options: ["No — never worked", "Yes — this is a regression", "Unknown"]
+    validations: { required: true }
+  - type: textarea
+    id: impact
+    attributes:
+      label: Who is affected, and how badly
+      description: One tenant or all of them? A workaround, or none? This drives Priority.
+    validations: { required: true }
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs, request IDs, screenshots
+      description: Redact tokens, secrets and personal data before pasting.
+      render: shell
+    validations: { required: false }
