@@ -2,7 +2,7 @@ name: Feature
 description: A capability someone can use — an end user, a tenant admin, or a developer integrating Qeet ID.
 title: "[Feature] "
 type: Feature
-labels: ["needs-triage"]
+labels: ["triage/pending"]
 body:
   - type: markdown
     attributes:
