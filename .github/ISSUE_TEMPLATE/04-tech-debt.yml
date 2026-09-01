@@ -1,0 +1,29 @@
+name: Tech Debt
+description: Rework that lowers the cost of future change. Not a defect, not routine housekeeping.
+title: "[Tech Debt] "
+type: Tech Debt
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: What exists today
+      description: Point at the code. Describe the shape of the problem, not just that you dislike it.
+    validations: { required: true }
+  - type: textarea
+    id: cost
+    attributes:
+      label: What it costs us
+      description: The concrete tax — bugs it causes, changes it slows, onboarding it confuses. Debt without a cost is a preference.
+    validations: { required: true }
+  - type: textarea
+    id: target
+    attributes:
+      label: Target state
+    validations: { required: true }
+  - type: textarea
+    id: risk
+    attributes:
+      label: Blast radius and rollback
+      description: What could this break, and how would you undo it? Set the Risk field to match.
+    validations: { required: true }
