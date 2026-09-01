@@ -2,7 +2,7 @@ name: Bug
 description: Behaviour that does not match what the product states or intends.
 title: "[Bug] "
 type: Bug
-labels: ["needs-triage"]
+labels: ["triage/pending"]
 body:
   - type: markdown
     attributes:
