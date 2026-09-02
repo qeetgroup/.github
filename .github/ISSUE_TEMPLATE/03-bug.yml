@@ -20,6 +20,25 @@ body:
       label: What should happen
       description: Cite the document, endpoint contract or acceptance criterion that says so, if there is one.
     validations: { required: true }
+  - type: dropdown
+    id: found_during
+    attributes:
+      label: How you found it
+      options:
+        - Manual testing against a test issue
+        - Exploratory testing
+        - Automated test or CI
+        - Using the product normally
+        - Reported by a customer
+        - Noticed while developing
+        - Not sure
+    validations: { required: false }
+  - type: input
+    id: related
+    attributes:
+      label: Related issue
+      description: The test issue, epic or pull request this came from, if there is one. For example `qeetgroup/qeet-id-server#333`.
+    validations: { required: false }
   - type: textarea
     id: repro
     attributes:
@@ -35,6 +54,12 @@ body:
       label: Environment
       options: ["Production (api.id.qeet.in)", "Vercel preview", "Local development", "Self-hosted", "Unknown"]
     validations: { required: true }
+  - type: input
+    id: client
+    attributes:
+      label: Browser and operating system
+      description: Only needed for a user-interface bug — the console, hosted login, website, docs or the mobile app. For example `Chrome 141 on macOS 15` or `Safari 18 on iOS 18`.
+    validations: { required: false }
   - type: dropdown
     id: regression
     attributes:
