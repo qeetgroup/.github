@@ -1,0 +1,29 @@
+name: Chore
+description: Dependency bumps, build tooling, housekeeping. No user-visible behaviour change.
+title: "[Chore] "
+type: Chore
+labels: ["triage/pending"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for work that keeps the repository healthy but changes nothing a user can see.
+        If it lowers the cost of future change, it is **Tech Debt**, not a chore.
+        If it fixes wrong behaviour, it is a **Bug**.
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs doing
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes:
+      label: Why now
+      description: A deprecation, a security advisory, a broken build, a version we can no longer support. One or two sentences.
+    validations: { required: true }
+  - type: textarea
+    id: risk
+    attributes:
+      label: What could break
+      description: Anything that needs checking after the change — a build step, a published contract, a deployment. Leave blank if genuinely nothing.
+    validations: { required: false }
