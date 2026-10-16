@@ -8,7 +8,7 @@
 
 We build technology for developers, businesses, and the people behind them — from digital identity and design systems to payments, communications, and observability.
 
-[**Website**](https://qeet.in) &nbsp;·&nbsp; [**Documentation**](https://docs.qeet.in) &nbsp;·&nbsp; [**API Reference**](https://apis.qeet.in) &nbsp;·&nbsp; [**Get in Touch**](https://qeet.in/contact)
+[**Website**](https://qeet.in) &nbsp;·&nbsp; [**Documentation**](https://docs.qeet.in) &nbsp;·&nbsp; [**API Reference**](https://api.qeet.in) &nbsp;·&nbsp; [**Get in Touch**](https://qeet.in/contact)
 
 </div>
 
