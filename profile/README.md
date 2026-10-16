@@ -1,145 +1,220 @@
 <div align="center">
 
-# We question, We explore, We envision, We transform.
+<a href="https://qeet.in">
+  <img src="https://github.com/qeetgroup.png" alt="Qeet Group" width="92" />
+</a>
 
-**A multi-company holding built on a single philosophy:**
-**that meaningful progress begins with the right question.**
+<h1>Qeet Group</h1>
 
-<br />
+<p><strong>We question. We explore. We envision. We transform.</strong></p>
 
-[![Website](https://img.shields.io/badge/qeet.in-0A0A0A?style=for-the-badge&logo=safari&logoColor=white)](https://qeet.in)
-[![X](https://img.shields.io/badge/@qeetgroup-0A0A0A?style=for-the-badge&logo=x&logoColor=white)](https://x.com/qeetgroup)
-[![LinkedIn](https://img.shields.io/badge/Qeet_Group-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/qeetgroup)
-[![Bluesky](https://img.shields.io/badge/@qeetgroup-0085FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/qeetgroup.bsky.social)
-[![Instagram](https://img.shields.io/badge/@qeetgroup-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/qeetgroup)
-[![Facebook](https://img.shields.io/badge/@qeetgroup-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/qeetgroup)
+<p>
+  A technology group building ambitious, enduring products for people,
+  businesses, and developers.
+</p>
+
+<p>
+  <a href="https://qeet.in"><strong>Website</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://qeet.in/products"><strong>Our Products</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://docs.qeet.in"><strong>Documentation</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://qeet.in/contact"><strong>Contact</strong></a>
+</p>
+
+<sub>India-rooted · Long-term by design · Built with curiosity and conviction</sub>
 
 </div>
 
 ---
 
-## The Philosophy
+## Who we are
 
-Everything we build starts here. Four words. One discipline.
+**One philosophy. Many ventures. A shared commitment to building what matters.**
 
-<table>
-  <tr>
-    <td valign="top" width="64"><h1>Q</h1></td>
-    <td valign="top"><strong>Question</strong><br/>Progress begins with the right question. We challenge conventional wisdom, isolate the problems that matter, and seek the deeper understanding most teams skip past in their rush to ship. The discipline of asking well is rarer than it sounds — and it changes what counts as a good answer.</td>
-  </tr>
-  <tr><td colspan="2"><br/></td></tr>
-  <tr>
-    <td valign="top" width="64"><h1>E</h1></td>
-    <td valign="top"><strong>Explore</strong><br/>Curiosity, made operational. Research, experimentation, and the patient discovery of methods that haven't been tried in our domain yet. Exploration is the practice that keeps an organisation's answers from getting stale — and the one most organisations starve when they get serious about scale.</td>
-  </tr>
-  <tr><td colspan="2"><br/></td></tr>
-  <tr>
-    <td valign="top" width="64"><h1>E</h1></td>
-    <td valign="top"><strong>Envision</strong><br/>Designing for what compounds. We work toward bold, specific futures — not just next-quarter targets. A clear vision is what tells you which trade-offs are temporary, which ones compound, and which ones quietly determine the kind of company you're going to be.</td>
-  </tr>
-  <tr><td colspan="2"><br/></td></tr>
-  <tr>
-    <td valign="top" width="64"><h1>T</h1></td>
-    <td valign="top"><strong>Transform</strong><br/>Vision is decoration until it ships. Building things that reshape industries and improve lives — and then actually delivering them. Vision without execution is decoration; execution without vision is wasted motion. The point is to deliver the future you said you'd build, on the timeline you said you'd build it.</td>
-  </tr>
-</table>
+Qeet Group brings together technology products and ventures guided by a common belief: **meaningful progress begins with the right question.**
 
----
+We look beyond immediate solutions to understand the problems worth solving. We explore new approaches, envision what could be possible, and turn those ideas into products with lasting value.
 
-## Vision & Mission
+Our ventures operate with a shared philosophy and quality bar while retaining the freedom to make the technical and product decisions their domains require.
 
-> **Vision** — To create a future of limitless possibilities, where industries and individuals thrive through questioning, exploring, and transforming ideas into reality.
+**Our ambition is not simply to launch more products. It is to build a group of products that become more useful, trustworthy, and enduring over time.**
+
+## Our philosophy
+
+The name **QEET** reflects the four disciplines behind how we think and build.
+
+| | Principle | What it means |
+|:--:|---|---|
+| **Q** | **Question** | Challenge assumptions. Understand the real problem before committing to an answer. |
+| **E** | **Explore** | Stay curious. Research, experiment, and consider approaches that others may overlook. |
+| **E** | **Envision** | Think beyond the immediate milestone. Design for outcomes that compound over time. |
+| **T** | **Transform** | Make ideas real. Deliver thoughtfully, measure what matters, and keep improving. |
+
+> **Our vision**
 >
-> **Mission** — To empower people and organisations to adapt, innovate, and transform by embracing curiosity, exploration, and future-focused thinking.
+> To create a future of limitless possibilities, where industries and individuals thrive through questioning, exploring, and transforming ideas into reality.
+
+> **Our mission**
+>
+> To empower people and organisations to adapt, innovate, and transform by embracing curiosity, exploration, and future-focused thinking.
 
 ---
 
-## Our Companies
+## Our ventures
 
-One philosophy. Many ventures.
+We are building a portfolio that spans digital identity, design infrastructure, observability, communications, people operations, and financial technology.
 
-### 🔐 &nbsp; [Qeet ID](https://id.qeet.in)
+| Venture | Area | What we are building |
+|---|---|---|
+| **[Qeet ID](https://qeet.in/products/qeetid)** | Identity & Access | Authentication and authorization infrastructure, from passkeys and SSO to fine-grained access control. |
+| **[Qeetrix](https://qeet.in/products/qeetrix)** | Design Systems | A shared foundation of design tokens, accessible components, and tools for consistent digital experiences. |
+| **[Qeet Logs](https://qeet.in/products/qeet-logs)** | Observability | Privacy-conscious logging and observability for applications and multi-tenant platforms. |
+| **[Qeet Notify](https://qeet.in/products/qeet-notify)** | Communications | Multi-channel notification infrastructure across email, SMS, push, and other delivery channels. |
+| **[Qeet People](https://qeet.in/products/qeet-people)** | People & Operations | Workforce and people-management software designed around real organisational needs. |
+| **[Qeet Pay](https://qeet.in/products/qeet-pay)** | Payments & Billing | India-first payment, billing, and invoicing infrastructure for growing businesses. |
 
-`Identity & Access` &nbsp;•&nbsp; `Generally Available` &nbsp;•&nbsp; `Est. 2026`
+<sub>Products are at different stages of development and availability. Visit each product page for the latest public status and access information.</sub>
 
-> *The auth platform engineers wish they'd had.*
+### In focus: Qeet ID
 
-Our first venture. It started from a question every engineering team eventually asks: **why is authentication this expensive, this complicated, and this divided between "simple developer tools" and "real enterprise platforms"?** Qeet ID closes that gap — developer simplicity on the surface, enterprise depth underneath, at a price that doesn't force teams to choose between the two.
+**Identity should be a foundation for what you build—not an obstacle to building it.**
 
-**Capabilities**
+[Qeet ID](https://id.qeet.in) is our identity and access platform. It brings together modern authentication, enterprise federation, and authorization in an experience designed for developers and organisations.
 
-| | |
-|:---|:---|
-| **SSO** | SAML 2.0 & OIDC across 50+ identity providers |
-| **MFA & Passkeys** | TOTP, SMS, email OTP, and WebAuthn for phishing-resistant sign-in |
-| **RBAC & ABAC** | Fine-grained access control, coherent across products and tenants |
-| **SCIM 2.0** | Automated user provisioning and lifecycle management |
-| **Multi-tenancy** | Full tenant isolation on a single, audit-ready identity graph |
-| **Compliance** | SOC 2 Type II, ISO 27001, and GDPR-aligned from the platform up |
+Its product scope includes:
 
-**Built with**
+- **Authentication:** Passkeys, multi-factor authentication, and modern sign-in experiences.
+- **Enterprise identity:** OpenID Connect, SAML-based federation, and identity lifecycle capabilities.
+- **Authorization:** Role- and attribute-based access control for applications and teams.
+- **Developer integration:** APIs, SDKs, and components for embedding identity into products.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-
-Drop-in SDKs and React components mean a team can stand up production sign-in in **days, not quarters**.
-
-**Free tier:** 5,000 monthly active users, no credit card required.
-
-<a href="https://id.qeet.in"><strong>→ Visit id.qeet.in</strong></a>
-
-<br />
-
-> 🔭 &nbsp; More ventures are in progress. Follow [@qeetgroup](https://x.com/qeetgroup) for announcements.
+**Explore:** [Qeet ID](https://id.qeet.in) · [Go SDK](https://github.com/qeetgroup/qeet-id-go) · [Node.js SDK](https://github.com/qeetgroup/qeet-id-node) · [React SDK](https://github.com/qeetgroup/qeet-id-react)
 
 ---
 
-## From the Newsroom
+## One group. Shared foundations. Independent thinking.
+
+We seek coherence across the portfolio without forcing every venture into the same implementation.
+
+| Our approach | What it means in practice |
+|---|---|
+| **Shared identity** | Qeet ID provides a common identity foundation for the wider Qeet ecosystem. |
+| **Consistent experiences** | Qeetrix brings shared visual primitives and design guidance to product interfaces. |
+| **Product autonomy** | Each product chooses the architecture and technologies appropriate to its domain. |
+| **Open interfaces** | Documented APIs and published client libraries make integration easier to understand and maintain. |
+| **Trust by design** | Security, privacy, explicit permissions, and tenant boundaries inform our engineering decisions. |
+| **Long-term stewardship** | We favour clear ownership, considered trade-offs, and software that can evolve responsibly. |
+
+### Built for India. With a wider horizon.
+
+Our roots shape the problems we choose to solve. Across products such as Qeet Pay, Qeet People, and Qeet Notify, we focus on workflows and requirements that matter to Indian businesses—not as an afterthought, but as part of product design.
+
+We also build around internationally recognised standards and interfaces so our products can serve developers and organisations beyond a single market.
+
+---
+
+## For developers
+
+We believe good developer experiences start with clear contracts, understandable documentation, and tools that respect the people using them.
+
+| Explore | What you will find |
+|---|---|
+| **[Developer documentation](https://docs.qeet.in)** | Guides, concepts, and integration documentation across the ecosystem. |
+| **[API reference](https://apis.qeet.in)** | API contracts and reference material for product integrations. |
+| **[Qeetrix](https://ui.qeet.in)** | The design-system documentation and component ecosystem. |
+| **[GitHub repositories](https://github.com/orgs/qeetgroup/repositories)** | Public source code, SDKs, and the engineering work behind Qeet products. |
+
+### Explore our code
+
+A selection of repositories across the group:
+
+| Repository | Focus |
+|---|---|
+| [`qeet-id-server`](https://github.com/qeetgroup/qeet-id-server) | Qeet ID's Go-based identity backend. |
+| [`qeet-id-react`](https://github.com/qeetgroup/qeet-id-react) | React integrations and components for identity. |
+| [`qeetrix-ui`](https://github.com/qeetgroup/qeetrix-ui) | Shared React UI components and design primitives. |
+| [`qeet-logs-server`](https://github.com/qeetgroup/qeet-logs-server) | Ingestion, querying, and observability infrastructure. |
+| [`qeet-notify-server`](https://github.com/qeetgroup/qeet-notify-server) | Notification orchestration and delivery services. |
+| [`qeet-pay-server`](https://github.com/qeetgroup/qeet-pay-server) | Backend services for payments and billing. |
+
+Want to explore further? [Browse all public repositories →](https://github.com/orgs/qeetgroup/repositories)
+
+---
+
+## How we work
+
+We are building for the long term, which shapes the way we make decisions every day.
+
+**Ask before building.** A well-defined problem is worth more than a rushed solution.
+
+**Make room for discovery.** Research and experimentation help us avoid solving only the problems we already know.
+
+**Care about the details.** Product quality includes security, accessibility, reliability, clarity, and the experience of the people who use what we build.
+
+**Deliver and learn.** Strong ideas earn their value when they become useful, maintainable products in the real world.
+
+**Think in years, not only releases.** We aim to make decisions that keep creating value long after the first launch.
+
+---
+
+## Newsroom & perspectives
+
+Follow the ideas, product announcements, and decisions shaping Qeet Group.
 
 <!-- NEWSROOM:START -->
 | Date | Update |
-|:---|:---|
-| May 27, 2026 | [**Qeet ID is generally available**](https://qeet.in/newsroom/qeetid-ga) — after a short discovery and a faster-than-expected private beta, our first venture is in production. |
-| May 22, 2026 | [**We're hiring across the group**](https://qeet.in/newsroom/were-hiring) — roles open in engineering, design, and operations. |
-| May 2, 2026 | [**Qeet ID begins discovery phase**](https://qeet.in/newsroom/qeetid-discovery) — our first venture starts work on a developer-first auth platform. |
+|---|---|
+| **02 Jun 2026** | [Passkeys, social sign-in, and enterprise SSO in Qeet ID](https://qeet.in/newsroom/qeetid-passkeys-sso) |
+| **29 May 2026** | [What's new in Qeet ID: the platform underneath](https://qeet.in/newsroom/qeetid-platform-update) |
+| **27 May 2026** | [Qeet ID: general-availability announcement](https://qeet.in/newsroom/qeetid-ga) |
 <!-- NEWSROOM:END -->
 
-[→ All posts](https://qeet.in/newsroom)
+[Read the newsroom →](https://qeet.in/newsroom)
 
 ---
 
-## Work With Us
+## Build with us
 
-We're hiring in **engineering, design, and operations** across the group.
+We are interested in thoughtful engineers, designers, researchers, and operators who enjoy hard questions, care about their craft, and want to build for the long term.
 
-We look for people who are genuinely curious, who question before they build, and who care about the quality of what ships — not just that it shipped.
+If that sounds like you, explore our [careers page](https://qeet.in/careers) or introduce yourself at [careers@qeet.in](mailto:careers@qeet.in). Current opportunities, when available, are listed on the careers page.
 
-[![See open roles](https://img.shields.io/badge/See_open_roles-0A0A0A?style=for-the-badge&logo=briefcase&logoColor=white)](https://qeet.in/careers)
-[![Get in touch](https://img.shields.io/badge/Get_in_touch-555555?style=for-the-badge&logo=maildotru&logoColor=white)](https://qeet.in/contact)
+We also welcome conversations with people and organisations who share our curiosity and believe we could build something meaningful together.
 
----
-
-## Get in Touch
-
-| Purpose | Contact |
-|:---|:---|
-| 🤝 &nbsp; Partnerships | [partnerships@qeet.in](mailto:partnerships@qeet.in) |
-| 📰 &nbsp; Press & Media | [Press kit](https://qeet.in/press) |
-| 💬 &nbsp; General | [support@qeet.in](mailto:support@qeet.in) |
-| ❓ &nbsp; FAQ | [qeet.in/faq](https://qeet.in/faq) |
+[Explore careers](https://qeet.in/careers) · [Discuss a partnership](mailto:partnerships@qeet.in)
 
 ---
+
+## Connect with Qeet Group
+
+| Enquiry | Contact |
+|---|---|
+| **General enquiries** | [support@qeet.in](mailto:support@qeet.in) |
+| **Partnerships** | [partnerships@qeet.in](mailto:partnerships@qeet.in) |
+| **Careers** | [careers@qeet.in](mailto:careers@qeet.in) |
+| **Security reports** | [security@qeet.in](mailto:security@qeet.in) |
+| **Media** | [Press & brand resources](https://qeet.in/press) |
 
 <div align="center">
 
-**Question · Explore · Envision · Transform**
+---
 
-<sub>© 2026 Qeet Group. All rights reserved.</sub>
+<strong>Question · Explore · Envision · Transform</strong>
 
-<sub><a href="https://qeet.in/legal/privacy">Privacy</a> &nbsp;·&nbsp; <a href="https://qeet.in/legal/terms">Terms</a> &nbsp;·&nbsp; <a href="https://qeet.in">qeet.in</a></sub>
+<p>
+  <a href="https://www.linkedin.com/company/qeetgroup">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://x.com/qeetgroup">X</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/qeetgroup">Instagram</a>
+  &nbsp;·&nbsp;
+  <a href="https://bsky.app/profile/qeetgroup.bsky.social">Bluesky</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.facebook.com/qeetgroup">Facebook</a>
+</p>
+
+<sub>© 2026 Qeet Group · <a href="https://qeet.in/legal/privacy">Privacy</a> · <a href="https://qeet.in/legal/terms">Terms</a> · <a href="https://qeet.in">qeet.in</a></sub>
 
 </div>
