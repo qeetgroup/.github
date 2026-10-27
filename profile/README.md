@@ -4,7 +4,7 @@
 
 ### We question. We explore. We envision. We transform.
 
-**One philosophy. Many ventures. Built for the long term.**
+**One philosophy. Many businesses. Built for the long term.**
 
 We build technology for developers, businesses, and the people behind them — from digital identity and design systems to payments, communications, and observability.
 
@@ -16,7 +16,7 @@ We build technology for developers, businesses, and the people behind them — f
 
 ## ✦ The idea behind Qeet
 
-Meaningful progress begins with the right question. That's the belief behind **Qeet Group** — and the method we bring to every venture.
+Meaningful progress begins with the right question. That's the belief behind **Qeet Group** — and the method we bring to every business.
 
 | | Our philosophy | How we work |
 |:--:|---|---|
@@ -36,7 +36,7 @@ Meaningful progress begins with the right question. That's the belief behind **Q
 
 Different products. Distinct problems. The same commitment to thoughtful execution.
 
-| Venture | What it does | Explore |
+| Business | What it does | Explore |
 |---|---|---|
 | **Qeet ID** | Identity and access management — passkeys, SSO, MFA, and authorization. | [Product ↗](https://id.qeet.in) |
 | **Qeetrix** | Design system, components, icons, and shared UI foundations. | [Design system ↗](https://ui.qeet.in) |
@@ -45,7 +45,7 @@ Different products. Distinct problems. The same commitment to thoughtful executi
 | **Qeet Pay** | India-first payments, billing, and invoicing. **In development.** | [Repository ↗](https://github.com/qeetgroup/qeet-pay-server) |
 | **Qeet People** | People operations, workforce management, and payroll. **In development.** | [Repositories ↗](https://github.com/orgs/qeetgroup/repositories) |
 
-*Our ventures are at different stages of development. Source code being public does not necessarily mean a product is generally available.*
+*Our businesses are at different stages of development. Source code being public does not necessarily mean a product is generally available.*
 
 ### In focus — Qeet ID
 
